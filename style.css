@@ -12,6 +12,11 @@ i {
     color: #f2f2f2f2;
 }
 
+i.fa-cc-visa,
+i.fa-cc-paypal {
+    margin-left: 0!important;
+    
+}
 
 
 body {
@@ -45,6 +50,7 @@ form {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
 }
 
 input[type=text], input[type=email], input[type=tel] {

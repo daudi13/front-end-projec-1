@@ -17,7 +17,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(148, 48, 48, .2), rgba(167, 67, 67, .3)), url('https://images.unsplash.com/photo-1531482615713-2afd69097998?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(148, 48, 48, .2), rgba(167, 67, 67, .8)), url('https://images.unsplash.com/photo-1531482615713-2afd69097998?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center;
     background-size: cover;
 
 }
@@ -26,7 +26,7 @@ div.wrapper {
     max-width: 600px;
     margin: auto;
     padding: 3rem 2rem;
-    color: rgb(34, 34, 34)
+    color: #ffffff
 }
 
 .wrapper h2 {
@@ -56,7 +56,11 @@ input[type=text], input[type=email], input[type=tel] {
 }
 
 .input-box + .input-box {
-    margin-top: 15px;
+    margin-top: 25px;
+}
+
+.wrapper.input-group:nth-child(4) .input-group {
+    margin-top: 15px!important;
 }
 
 .wrapper .input-group:nth-child(4) .input-box{
@@ -83,6 +87,7 @@ input[type=text], input[type=email], input[type=tel] {
     background-color: rgb(233, 94, 94);
     opacity: 0.85;
     transition: all 0.45s ease;
+    color: #fff;
 }
 
 .input-box button:hover{

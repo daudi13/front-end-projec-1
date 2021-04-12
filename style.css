@@ -7,6 +7,12 @@
 }
 
 
+i {
+    margin-left: 8px;
+    color: #f2f2f2f2;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -20,6 +26,7 @@ div.wrapper {
     max-width: 600px;
     margin: auto;
     padding: 3rem 2rem;
+    color: rgb(34, 34, 34)
 }
 
 .wrapper h2 {
@@ -30,7 +37,7 @@ div.wrapper {
 
 form {
     background: rgba(47, 144, 168, 0.8);
-    height: 60vh;
+    height: 75vh;
     padding: 2rem;
     border-radius: 20px;
     display:flex;
@@ -59,8 +66,13 @@ input[type=text], input[type=email], input[type=tel] {
 .input-box select {
     border-radius: 5px;
     outline: none;
-
 }
+
+.wrapper .input-group:nth-child(5) h4{
+    padding-bottom: 25px;
+}
+
+
 
 
 .input-box button {

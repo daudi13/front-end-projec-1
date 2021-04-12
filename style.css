@@ -40,10 +40,12 @@ form {
 }
 
 input[type=text], input[type=email], input[type=tel] {
-    padding: 5px 10px;
+    padding: 8px 10px;
     outline: none;
     border-radius: 10px;
     border: 1px solid #fff;
+    width: 60%;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
 }
 
 .input-box + .input-box {
@@ -52,4 +54,26 @@ input[type=text], input[type=email], input[type=tel] {
 
 .wrapper .input-group:nth-child(4) .input-box{
     display: none;
+}
+
+.input-box select {
+    border-radius: 5px;
+    outline: none;
+
+}
+
+
+.input-box button {
+    width: 40%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(233, 94, 94);
+    opacity: 0.85;
+    transition: all 0.45s ease;
+}
+
+.input-box button:hover{
+    opacity: 1;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
 }
